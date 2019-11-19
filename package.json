@@ -1,0 +1,28 @@
+{
+  "name": "node-tts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helderburato/node-tts.git"
+  },
+  "keywords": [],
+  "author": "Helder Burato Berto <helder.burato@gmail.com> (https://helder.dev/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helderburato/node-tts/issues"
+  },
+  "homepage": "https://github.com/helderburato/node-tts#readme",
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "husky": "^3.1.0",
+    "nodemon": "^1.19.4"
+  }
+}
