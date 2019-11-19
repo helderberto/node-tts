@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint src",
-    "lint:fix": "eslint src --fix"
+    "lint:fix": "eslint src --fix",
+    "dev:monitor": "nodemon src/monitor/server.js",
+    "dev:server1": "nodemon src/server2/server.js",
+    "dev:server2": "nodemon src/server2/server.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +27,8 @@
     "eslint-plugin-import": "^2.18.2",
     "husky": "^3.1.0",
     "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "axios": "^0.19.0"
   }
 }
